@@ -239,6 +239,5 @@ DB_NAME=finance_ifrs_dw
 📬 Contact
 
 📩 Email: gustavo.provento@gmail.com
-
 💼 LinkedIn: linkedin.com/in/gustavo-m-freitas  
 📂 GitHub: github.com/gustavo-m-freitas
