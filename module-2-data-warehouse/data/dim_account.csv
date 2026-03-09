@@ -1,0 +1,44 @@
+﻿AccountKey,AccountName,Account_Nature,StatementType,AccountGroup,IFRS_Reference,Description,IsCalculated
+101,Revenue,C,P&L,Operating Revenue,IFRS 15,Total sales revenue,FALSE
+102,CostOfGoodsSold,D,P&L,Cost of Sales,IAS 2,Cost of goods sold,FALSE
+103,GrossProfit,C,P&L,Calculated,IAS 1,Revenue minus COGS,TRUE
+104,OperatingExpenses,D,P&L,Operating Expense,IAS 1,Operating expenses,FALSE
+105,EBITDA,C,P&L,Calculated,IAS 1,Gross profit minus OPEX,TRUE
+106,DepreciationExpense,D,P&L,Depreciation & Amortization,IAS 16,Depreciation of tangible assets,FALSE
+107,FinancialResults,C,P&L,Calculated,IFRS 9,Financial income minus financial expenses,TRUE
+108,STInterestExpense,D,P&L,Financial Expense,IFRS 9,Short-term interest cost,FALSE
+109,LTInterestExpense,D,P&L,Financial Expense,IFRS 9,Long-term interest cost,FALSE
+110,InterestIncome,C,P&L,Financial Income,IFRS 9,Interest earned on investments or cash,FALSE
+111,EBT,C,P&L,Calculated,IAS 1,Earnings before taxes,TRUE
+112,CurrentTaxExpense,D,P&L,Tax Expense,IAS 12,Current period income tax,FALSE
+113,TotalTaxes,D,P&L,Tax Expense,IAS 12,Total income taxes (current + deferred),FALSE
+114,NetIncome,C,P&L,Calculated,IAS 1,Earnings after taxes,TRUE
+201,Cash,D,Balance,Ending Cash,IAS 1,Cash balance at end of period (same value),FALSE
+202,AccountsReceivable,D,Balance,Current Assets,IAS 1,Trade and other receivables,FALSE
+203,Inventory,D,Balance,Current Assets,IAS 2,Inventories of goods or materials,FALSE
+204,CurrentAssets,D,Balance,Calculated,IAS 1,Total of all current assets (sum of cash, receivables, inventory, etc.),TRUE
+205,PPE,D,Balance,NonCurrent Assets,IAS 16,Property, plant and equipment,FALSE
+206,IntangibleAssets,D,Balance,NonCurrent Assets,IAS 38,Intangible assets (software, goodwill),FALSE
+207,DeferredTaxes,D,Balance,Deferred Tax Asset,IAS 12,Deferred tax from prior losses,FALSE
+208,OtherNonCurrentAssets,D,Balance,NonCurrent Assets,IAS 1,Other long-term assets,FALSE
+209,NonCurrentAssets,D,Balance,Calculated,IAS 1,Total of all non-current assets (property, intangibles, deferred tax, etc.),TRUE
+210,TotalAssets,D,Balance,Calculated,IAS 1,Sum of current and non-current assets,TRUE
+211,AccountsPayable,C,Balance,Current Liabilities,IAS 1,Trade payables and accrued expenses,FALSE
+212,RevolvingCredit,C,Balance,Current Liabilities,IFRS 9,Short-term credit facility or overdraft,FALSE
+213,CurrentLiabilities,C,Balance,Current Liabilities,IAS 1,Sum of accounts payable and revolving credit,TRUE
+214,NonCurrentLiabilities,C,Balance,NonCurrent Liabilities,IAS 1,Long-term obligations (bonds, loans),FALSE
+215,TotalLiabilities,C,Balance,Calculated,IAS 1,Sum of current and non-current liabilities,TRUE
+216,Capital,C,Balance,Equity,IAS 1,Paid-in capital or share capital,FALSE
+217,RetainedEarnings,C,Balance,Equity,IAS 1,Accumulated profits or losses,FALSE
+218,Dividends,D,Balance,Equity,IAS 10,Dividends declared or paid,FALSE
+219,TotalEquity,C,Balance,Calculated,IAS 1,Total shareholders’ equity (capital + retained earnings - dividends),TRUE
+301,DeltaAR,D,CashFlow,Operating Activities,IAS 7,Variation in accounts receivable,FALSE
+302,DeltaInventory,D,CashFlow,Operating Activities,IAS 7,Variation in inventories,FALSE
+303,DeltaAP,C,CashFlow,Operating Activities,IAS 7,Variation in accounts payable,FALSE
+304,DeltaDebt,C,CashFlow,Financing Activities,IAS 7,Variation in financial liabilities,FALSE
+305,CFO,D,CashFlow,Operating,IAS 7,Cash Flow from Operations,TRUE
+306,CFI,D,CashFlow,Investing,IAS 7,Cash Flow from Investing Activities,TRUE
+307,CFF,D,CashFlow,Financing,IAS 7,Cash Flow from Financing Activities,TRUE
+308,CashEnd,D,CashFlow,Ending Cash,IAS 7,Cash balance at end of period,FALSE
+309,Capex,D,CashFlow,Investing Activities,IAS 7,Capital expenditure for asset purchases,FALSE
+310,TaxBasis,D,CashFlow,NonCurrent Assets,IAS 12,Fiscal cost basis of fixed assets,FALSE
