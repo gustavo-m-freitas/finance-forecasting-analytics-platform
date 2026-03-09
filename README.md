@@ -1,20 +1,20 @@
 📊 Digital Finance Forecasting & Analytics Platform
 
-This project is an end-to-end financial analytics platform designed to replicate a modern corporate Finance and FP&A analytical environment.
+This project is an **end-to-end financial analytics platform** designed to replicate a modern corporate **Finance and FP&A analytical environment.**
 
-The platform integrates financial modeling, data engineering, statistical forecasting, and business intelligence into a unified architecture capable of transforming raw financial data into decision-ready analytics and executive insights.
+The platform integrates **financial modeling, data engineering, statistical forecasting, and business intelligence** into a unified architecture capable of transforming raw financial data into **decision-ready analytics and executive insights.**
 
 It demonstrates how modern finance teams can move from traditional spreadsheet-based reporting to a scalable analytics-driven finance data stack.
 
 📌 Project Overview
 
-The project simulates the financial operations of a synthetic industrial engine manufacturer operating across multiple products and sales channels.
+The project simulates the financial operations of a **synthetic industrial engine manufacturer** operating across multiple products and sales channels.
 
 The platform integrates several layers of financial analytics:
 
 Financial Modeling → Data Warehouse → Python Automation → Forecasting → BI Dashboards
 
-The objective is to demonstrate how financial data can be transformed into structured analytical pipelines capable of supporting forecasting, planning, and executive decision-making.
+The objective is to demonstrate how financial data can be transformed into structured analytical pipelines capable of supporting **forecasting, planning, and executive decision-making.**
 
 🏗 Platform Architecture
 
@@ -36,7 +36,7 @@ Forecasting & FP&A Planning
       ↓
 Executive BI Dashboards
 
-This architecture replicates a modern Finance Data Stack used in corporate FP&A and finance transformation initiatives.
+This architecture replicates a **modern Finance Data Stack** used in corporate FP&A and finance transformation initiatives.
 
 ⚙️ Technology Stack
 
@@ -93,7 +93,7 @@ digital-finance-forecasting-platform
 
 📊 Business Context
 
-The platform models the financial evolution of a synthetic industrial engine manufacturer operating through:
+The platform models the financial evolution of a **synthetic industrial engine manufacturer operating** through:
 
 Sales Channels:
 
