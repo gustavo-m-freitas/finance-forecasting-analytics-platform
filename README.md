@@ -177,17 +177,22 @@ The pipeline replaces manual reporting with reproducible analytical workflows.
 
 ### Module 4 — Forecasting & FP&A Analytics
 
-Advanced financial analytics layer focused on forecasting and scenario analysis.
+Advanced financial analytics layer responsible for transforming historical financial data into statistically governed forecasts and FP&A planning inputs.
 
-Key techniques include:
+The module establishes a rigorous forecasting workflow combining statistical diagnostics, model selection, and scenario-based financial planning.
 
-- Exploratory data analysis
-- Time series diagnostics
-- SARIMA forecasting models
-- regime-adjusted forecasting
-- Monte Carlo scenario simulation
+Core analytical components include:
 
-Forecast outputs are integrated into a planning framework used for **FP&A scenario analysis**.
+- **Exploratory Data Analysis (EDA)** to understand distributional behavior, revenue dynamics, and structural patterns in financial drivers  
+- **Time-series diagnostics**, including stationarity testing, seasonal decomposition, and autocorrelation analysis  
+- **Model evaluation and selection**, comparing regression-based approaches and time-series frameworks  
+- **SARIMA forecasting models** calibrated to capture long-term trend and seasonal revenue behavior  
+- **Regime-adjusted forecasting**, incorporating structural shifts in historical financial dynamics  
+- **Forecast validation**, using out-of-sample evaluation metrics such as MAPE, WAPE, and RMSE  
+- **Probabilistic forecasting**, generating confidence intervals and uncertainty envelopes  
+- **Monte Carlo scenario simulation** for probabilistic revenue and financial outcome analysis  
+
+Forecast outputs are translated into **FP&A planning inputs**, enabling scenario analysis, financial variance monitoring, and integration with corporate budgeting and executive decision-support workflows.
 
 ### Module 5 — Executive BI Dashboard
 
