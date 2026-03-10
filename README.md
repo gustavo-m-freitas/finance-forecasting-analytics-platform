@@ -45,51 +45,49 @@ Layer | Technology
 Financial Modeling | Excel (Integrated IFRS 3-Statement Model)
 Database | PostgreSQL
 Data Modeling | Star Schema Financial Data Warehouse
-Automation | Python (Pandas, NumPy, SQLAlchemy)
+Data Engineering | Python (Pandas, NumPy, SQLAlchemy)
+Statistical Modeling | Python (statsmodels, scikit-learn)
 Forecasting | Time-Series Analysis, SARIMA Models
-Scenario Simulation | Monte Carlo Simulations
-Visualization | Power BI
+Simulation | Monte Carlo Simulations
+Visualization | Power BI, Matplotlib, Seaborn
+Development Environment | Jupyter Notebooks
 
 📂 Repository Structure
 
-```
 digital-finance-forecasting-platform
 
-├── sql/
-│   ├── ddl_tables.sql
-│   ├── views_ifrs.sql
-│   └── load_data.sql
+├── module-1-financial-model
+│   ├── git_Module1_3statement_IFRS.xlsx
+│   └── README.md
 │
-├── python/
-│   ├── ifrs_pipeline.py
-│   ├── data_quality.py
-│   └── config.py
+├── module-2-data-warehouse
+│   ├── sql/
+│   │   ├── ddl_tables.sql
+│   │   ├── views_ifrs.sql
+│   │   └── load_data.sql
+│   ├── data/
+│   ├── assets/
+│   │   └── star_schema_diagram.png
+│   └── README.md
 │
-├── notebooks/
-│   ├── forecasting_analysis.ipynb
-│   └── scenario_simulation.ipynb
+├── module-3-financial-reporting-automation
+│   ├── Module3_py_sql.ipynb
+│   └── README.md
 │
-├── data/
-│   ├── sample_exports/
-│   └── schema_reference/
+├── module-4-forecasting
+│   ├── Module4.1_py_reg.ipynb
+│   ├── Module4.2_py.ipynb
+│   ├── Module4.3_excel.pdf
+│   ├── Module4.4_py_sql.ipynb
+│   └── README.md
 │
-├── docs/
-│   ├── data_warehouse.md
-│   ├── forecasting_methodology.md
-│   └── architecture.md
-│
-├── powerbi/
-│   └── ifrs_dashboard.pbix
-│
-├── assets/
-│   ├── architecture_diagram.png
-│   ├── dashboard_screenshots.png
-│   └── forecasting_plots.png
-│
-├── requirements.txt
-├── .env.example
-└── .gitignore
-```
+├── module-5-bi-dashboard
+│   ├── powerbi/
+│   │   └── Power_BI_finance_ifrs_dw.pbix
+│   ├── assets/
+│   │   └── dashboard_preview.pdf
+│   └── README.md
+
 
 📊 Business Context
 
