@@ -10,6 +10,7 @@ It demonstrates how modern finance teams can move from traditional spreadsheet-b
 
 Finance Analytics, Financial Forecasting, FP&A, Financial Modeling, Data Warehouse, Time Series Forecasting, SARIMA Models, Monte Carlo Simulation, Business Intelligence, Power BI, Finance Data Stack.
 
+
 📌 Project Overview
 
 The project simulates the financial operations of a **synthetic industrial engine manufacturer** operating across multiple products and sales channels.
