@@ -250,6 +250,7 @@ Power BI dashboards translate complex financial analytics into intuitive executi
 The dataset used in this project represents **synthetic financial data** created to simulate realistic corporate financial dynamics.
 
 The purpose is to demonstrate financial analytics architecture and methodology, not to represent a real company dataset.
+
 ---
 
 🔧 Environment Setup
