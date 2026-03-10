@@ -38,6 +38,7 @@ Executive BI Dashboards
 
 This architecture replicates a **modern Finance Data Stack** used in corporate FP&A and finance transformation initiatives.
 
+
 ⚙️ Technology Stack
 
 Layer | Technology
@@ -51,6 +52,7 @@ Forecasting | Time-Series Analysis, SARIMA Models
 Simulation | Monte Carlo Simulations
 Visualization | Power BI, Matplotlib, Seaborn
 Development Environment | Jupyter Notebooks
+
 
 📂 Repository Structure
 
