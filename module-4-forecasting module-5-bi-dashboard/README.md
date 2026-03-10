@@ -8,7 +8,7 @@ The objective is to transform the historical financial dataset generated in the 
 
 The module combines exploratory statistical analysis, time-series modeling, and FP&A scenario integration to simulate a realistic corporate forecasting workflow.
 
----
+
 
 ## Analytical Workflow
 
@@ -26,7 +26,6 @@ Scenario Analysis & Forecast Validation
 ↓  
 FP&A Planning Integration
 
----
 
 ## Contents of the Module
 
@@ -45,7 +44,7 @@ Key activities include:
 
 The goal of this section is to understand the statistical properties of the revenue series and identify appropriate modeling approaches.
 
----
+
 
 ### 4.2 — Forecasting Models & Scenario Framework
 
@@ -62,7 +61,7 @@ Main components include:
 
 This section converts statistical models into actionable revenue forecasts.
 
----
+
 
 ### 4.3 — FP&A Integration
 
@@ -75,7 +74,7 @@ This stage focuses on translating statistical forecasts into FP&A planning assum
 - variance analysis
 - financial scenario evaluation
 
----
+
 
 ### 4.4 — Forecast Visualization & Analytics
 
