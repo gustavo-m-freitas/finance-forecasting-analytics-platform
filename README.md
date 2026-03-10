@@ -4,7 +4,7 @@ This project is an **end-to-end financial analytics platform** designed to repli
 
 The platform integrates **financial modeling, data engineering, statistical forecasting, and business intelligence** into a unified architecture capable of transforming raw financial data into **decision-ready analytics and executive insights.**
 
-It demonstrates how modern finance teams can move from traditional spreadsheet-based reporting to a scalable analytics-driven finance data stack.
+It demonstrates how modern finance teams can move from traditional spreadsheet-based reporting to a scalable analytics-driven **finance data stack.**
 
 📌 Project Overview
 
