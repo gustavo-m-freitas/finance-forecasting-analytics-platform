@@ -87,7 +87,7 @@ Key elements include:
 - visualization of revenue trends and forecast paths
 - comparison between actual and forecasted financial performance
 
----
+
 
 ## Role in the Platform
 
