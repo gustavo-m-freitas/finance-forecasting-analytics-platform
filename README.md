@@ -56,6 +56,7 @@ Development Environment | Jupyter Notebooks
 
 📂 Repository Structure
 
+```
 digital-finance-forecasting-platform
 
 ├── module-1-financial-model
@@ -91,7 +92,7 @@ digital-finance-forecasting-platform
 │   └── README.md
 │ 
 └── README.md
-
+```
 
 📊 Business Context
 
