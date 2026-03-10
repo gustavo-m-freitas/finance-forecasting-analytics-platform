@@ -224,24 +224,24 @@ The platform demonstrates several advanced finance analytics capabilities:
 
 The **Digital Finance Forecasting & Analytics Platform** demonstrates how finance teams can transform fragmented financial data into a structured analytics architecture capable of supporting forecasting, planning, and executive decision-making.
 
-📌 Financial Data Integration & Governance
+**📌 Financial Data Integration & Governance**
 
 Corporate finance environments often rely on disconnected spreadsheets and manual reporting processes.  
 This platform demonstrates how financial data can be centralized in a governed **Financial Data Warehouse** structured around IFRS reporting logic.
 
-📌 Automated Financial Reporting
+**📌 Automated Financial Reporting**
 
 The Python automation pipeline replaces manual reporting workflows with reproducible data processes and automated KPI generation.
 
-📌 Data-Driven Forecasting & Risk Awareness
+**📌 Data-Driven Forecasting & Risk Awareness**
 
 Statistical forecasting models (SARIMA) and Monte Carlo simulations allow finance teams to quantify revenue uncertainty and evaluate financial scenarios.
 
-📌 FP&A Planning & Scenario Analysis
+**📌 FP&A Planning & Scenario Analysis**
 
 Forecast outputs are integrated into an FP&A planning framework supporting budgeting, scenario evaluation, and variance analysis.
 
-###📌 Executive Decision Support
+**📌 Executive Decision Support**
 
 Power BI dashboards translate complex financial analytics into intuitive executive insights for strategic decision-making.
 
