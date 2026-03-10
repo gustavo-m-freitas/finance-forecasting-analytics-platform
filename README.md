@@ -226,8 +226,7 @@ The **Digital Finance Forecasting & Analytics Platform** demonstrates how financ
 
 **📌 Financial Data Integration & Governance**
 
-Corporate finance environments often rely on disconnected spreadsheets and manual reporting processes.  
-This platform demonstrates how financial data can be centralized in a governed **Financial Data Warehouse** structured around IFRS reporting logic.
+Corporate finance environments often rely on disconnected spreadsheets and manual reporting processes. This platform demonstrates how financial data can be centralized in a governed **Financial Data Warehouse** structured around IFRS reporting logic.
 
 **📌 Automated Financial Reporting**
 
@@ -245,6 +244,7 @@ Forecast outputs are integrated into an FP&A planning framework supporting budge
 
 Power BI dashboards translate complex financial analytics into intuitive executive insights for strategic decision-making.
 
+---
 ⚠ Data Disclaimer
 
 The dataset used in this project represents **synthetic financial data** created to simulate realistic corporate financial dynamics.
