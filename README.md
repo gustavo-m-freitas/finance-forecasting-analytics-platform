@@ -21,39 +21,20 @@ Financial Modeling → Data Warehouse → Python Automation → Forecasting → 
 
 The objective is to demonstrate how financial data can be transformed into structured analytical pipelines capable of supporting **forecasting, planning, and executive decision-making.**
 
-🏗 Platform Architecture
+## 🏗 Platform Architecture & Technology Stack
 
-The project is structured as a modular financial analytics pipeline:
+The platform is structured as a modular **financial analytics pipeline**, transforming operational financial drivers into decision-ready analytics through an integrated data and analytics stack.
 
-```
-Financial Drivers
-      ↓
-3-Statement Financial Model (Excel)
-      ↓
-Monthly Financial Dataset
-      ↓
-CSV Data Layer
-      ↓
-Financial Data Warehouse (PostgreSQL)
-      ↓
-Python Automation & Analytics
-      ↓
-Forecasting & FP&A Planning
-      ↓
-Executive BI Dashboards
+The architecture integrates financial modeling, data warehousing, analytics automation, statistical forecasting, and business intelligence into a unified **Finance Data Stack** used in modern FP&A environments.
 
-```
-
-This architecture replicates a **modern Finance Data Stack** used in corporate FP&A and finance transformation initiatives.
-
-
-⚙️ Technology Stack
+### Technology Stack
 
 Layer | Technology
 --- | ---
 Financial Modeling | Excel (Integrated IFRS 3-Statement Model)
 Database | PostgreSQL
 Data Modeling | Star Schema Financial Data Warehouse
+SQL Development | PostgreSQL (DDL, Views) – managed via DBeaver
 Data Engineering | Python (Pandas, NumPy, SQLAlchemy)
 Statistical Modeling | Python (statsmodels, scikit-learn)
 Forecasting | Time-Series Analysis, SARIMA Models
