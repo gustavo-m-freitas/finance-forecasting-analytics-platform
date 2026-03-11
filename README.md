@@ -27,7 +27,7 @@ The platform is structured as a modular **financial analytics pipeline**, transf
 
 The architecture integrates financial modeling, data warehousing, analytics automation, statistical forecasting, and business intelligence into a unified **Finance Data Stack** used in modern FP&A environments.
 
-### Technology Stack
+**Technology Stack**
 
 Layer | Technology
 --- | ---
