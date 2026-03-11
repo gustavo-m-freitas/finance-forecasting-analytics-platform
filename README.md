@@ -25,6 +25,7 @@ The objective is to demonstrate how financial data can be transformed into struc
 
 The project is structured as a modular financial analytics pipeline:
 
+```
 Financial Drivers
       ↓
 3-Statement Financial Model (Excel)
@@ -40,6 +41,8 @@ Python Automation & Analytics
 Forecasting & FP&A Planning
       ↓
 Executive BI Dashboards
+
+```
 
 This architecture replicates a **modern Finance Data Stack** used in corporate FP&A and finance transformation initiatives.
 
@@ -144,30 +147,9 @@ The model serves as the financial engine of the platform.
 
 Implementation of a **PostgreSQL Financial Data Warehouse** using a **Star Schema architecture**.
 
-Key components:
+The warehouse exposes **IFRS reporting views** used for analytics and financial reporting.
 
-Dimensions:
-
-- dim_date
-- dim_product
-- dim_channel
-- dim_businessunit
-- dim_scenario
-- dim_account
-
-Fact tables include:
-
-- fact_sales
-- fact_cogs
-- fact_opex
-- fact_assets
-- fact_debt
-- fact_equity
-- fact_taxes
-- fact_workingcapital
-- fact_cashflow
-
-The warehouse exposes **IFRS reporting views** used for analytics and reporting.
+A detailed explanation of the dimensional model, including the structure of dimension tables, fact tables, and the datasets contained in the `data/` directory, is available in the **Module 2 README**. Please refer to that documentation for the complete schema description and data definitions.
 
 ### Module 3 — Financial Reporting Automation
 
@@ -185,9 +167,7 @@ The pipeline replaces manual reporting with reproducible analytical workflows.
 
 ### Module 4 — Forecasting & FP&A Analytics
 
-Advanced financial analytics layer responsible for transforming historical financial data into statistically governed forecasts and FP&A planning inputs.
-
-The module establishes a rigorous forecasting workflow combining statistical diagnostics, model selection, and scenario-based financial planning.
+Advanced financial analytics layer responsible for transforming historical financial data into statistically governed forecasts and FP&A planning inputs. The module establishes a rigorous forecasting workflow combining statistical diagnostics, model selection, and scenario-based financial planning.
 
 Core analytical components include:
 
