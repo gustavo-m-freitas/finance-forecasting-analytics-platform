@@ -39,8 +39,8 @@ Data Engineering | Python (Pandas, NumPy, SQLAlchemy)
 Statistical Modeling | Python (statsmodels, scikit-learn)
 Forecasting | Time-Series Analysis, SARIMA Models
 Simulation | Monte Carlo Simulations
-Visualization | Power BI, Matplotlib, Seaborn
-Development Environment | Jupyter Notebooks
+Visualization | Power BI, Streamlit, Plotly, Matplotlib, Seaborn
+Development Environment | Jupyter Notebooks, VS Code, Streamlit
 
 
 📂 Repository Structure
