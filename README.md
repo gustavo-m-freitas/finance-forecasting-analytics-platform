@@ -17,7 +17,7 @@ The project simulates the financial operations of a **synthetic industrial engin
 
 The platform integrates several layers of financial analytics:
 
-Financial Modeling → Data Warehouse → Python Automation → Forecasting → BI Dashboards
+**Financial Modeling → Data Warehouse → Python Automation → Forecasting → BI Dashboards → Streamlit Application**
 
 The objective is to demonstrate how financial data can be transformed into structured analytical pipelines capable of supporting **forecasting, planning, and executive decision-making.**
 
@@ -78,6 +78,11 @@ digital-finance-forecasting-platform
 │   │   └── Power_BI_finance_ifrs_dw.pbix
 │   ├── assets/
 │   │   └── dashboard_preview.pdf
+│   └── README.md
+│
+├── module-6-streamlit-dashboard
+│   ├── app.py
+│   ├── data
 │   └── README.md
 │ 
 └── README.md
@@ -185,6 +190,21 @@ The platform demonstrates several advanced finance analytics capabilities:
 - statistical forecasting models
 - probabilistic scenario analysis
 - executive financial dashboards
+
+### Module 6 — Streamlit Dashboard (Interactive Web Application)
+
+Development of an interactive Streamlit application for financial analysis and executive exploration.
+
+Includes:
+
+- Financial Journey view
+- Revenue Drivers analysis
+- Forecast & Scenario Analysis
+- dynamic filters and KPI cards
+- PostgreSQL integration via SQLAlchemy
+- interactive visualizations with Plotly
+
+The module transforms the platform into a web-based analytical application for interactive decision support.
 
 ### 💼 Business Impact
 
