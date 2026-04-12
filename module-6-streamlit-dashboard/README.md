@@ -37,3 +37,12 @@ Breakdown of revenue by product lines and sales channels, including price vs vol
 **Forecast & Scenario Planning**
 
 Interactive visualization of forecasting results, including scenario analysis, variance tracking, and comparison between actual and projected performance.
+
+---
+
+## Live Application
+
+The Streamlit dashboard is publicly deployed and accessible at:
+
+https://finance-dashboard-ifrs.streamlit.app/
+
