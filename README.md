@@ -63,7 +63,8 @@ digital-finance-forecasting-platform
 │   └── README.md
 │
 ├── module-3-financial-reporting-automation
-│   ├── Module3_py_sql.ipynb
+│   ├── Module3.1_py_anomaly.ipynb
+│   ├── Module3.2_reporting.ipynb
 │   └── README.md
 │
 ├── module-4-forecasting
@@ -137,19 +138,19 @@ The warehouse exposes **IFRS reporting views** used for analytics and financial 
 
 A detailed explanation of the dimensional model, including the structure of dimension tables, fact tables, and the datasets contained in the `data/` directory, is available in the **Module 2 README**. Please refer to that documentation for the complete schema description and data definitions.
 
-### Module 3 — Financial Reporting Automation
+### Module 3 — IFRS Reporting Automation & Anomaly Detection
 
-Python automation pipeline used to extract and transform financial data from the warehouse.
+Python-based pipeline to extract, validate, and transform financial data from the Data Warehouse, enriched with anomaly detection capabilities.
 
 Key components:
+- SQLAlchemy data extraction from PostgreSQL
+- Pandas-based transformations and KPI calculations
+- data validation and financial integrity checks
+- multi-layer anomaly detection (Z-score, STL, Isolation Forest)
+- ensemble scoring for robust anomaly identification
+- standardized reporting outputs (CSV / Excel)
 
-- SQLAlchemy database connection
-- Pandas data transformations
-- automated KPI calculations
-- financial validation checks
-- standardized reporting outputs
-
-The pipeline replaces manual reporting with reproducible analytical workflows.
+The module replaces manual reporting with a reproducible financial analytics and monitoring workflow.
 
 ### Module 4 — Forecasting & FP&A Analytics
 
