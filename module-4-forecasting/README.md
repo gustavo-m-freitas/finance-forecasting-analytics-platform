@@ -1,96 +1,44 @@
-# Module 4 — Forecasting & FP&A Analytics
+### Module 4 — FP&A Intelligence
 
 ## Overview
 
-This module implements the statistical forecasting and FP&A analytical layer of the platform.
+This module implements the FP&A analytical layer of the platform, transforming historical financial data into forecasts, planning inputs, and performance insights.
 
-The objective is to transform the historical financial dataset generated in the previous modules into statistically grounded forecasts and planning insights used for financial analysis and scenario evaluation.
+It follows a structured workflow:
 
-The module combines exploratory statistical analysis, time-series modeling, and FP&A scenario integration to simulate a realistic corporate forecasting workflow.
+**diagnostic analysis → statistical forecasting → financial planning → forecast governance → variance analysis → driver-based forecasting enhancement**
 
+The objective is to simulate a real-world FP&A process, combining statistical rigor with business-oriented analysis.
 
+## Contents
 
-## Analytical Workflow
+### 4.1 — Diagnostics & Model Selection
 
-The forecasting process follows a structured analytical pipeline:
+Statistical analysis of revenue behavior prior to forecasting, including EDA, stationarity, seasonality, and model evaluation.
 
-Historical Financial Dataset  
-↓  
-Exploratory Data Analysis (EDA)  
-↓  
-Statistical Diagnostics & Model Selection  
-↓  
-Time-Series Forecasting Models  
-↓  
-Scenario Analysis & Forecast Validation  
-↓  
-FP&A Planning Integration
+### 4.2 — Statistical Forecasting & Scenarios
 
+SARIMA-based revenue forecasting with validation metrics (MAPE, WAPE, RMSE), multi-horizon projections, and scenario modeling.
 
-## Contents of the Module
+### 4.3 — FP&A Planning Integration
 
-### 4.1 — Revenue Forecasting Diagnostics
+Translation of forecast outputs into financial planning inputs for budgeting, scenario analysis, and performance monitoring.
 
-Statistical analysis of the financial dataset prior to forecasting.
+### 4.4 — Forecast Governance (Anomaly Detection)
 
-Key activities include:
+Validation layer ensuring forecast accuracy, plausibility, and consistency using statistical detection and financial control checks.
 
-- Exploratory Data Analysis (EDA)
-- Distribution and normality diagnostics
-- Stationarity testing
-- Feature engineering and lag analysis
-- Multicollinearity assessment
-- evaluation of regression and time-series model candidates
+### 4.5 — Variance Analysis & Revenue Bridge
 
-The goal of this section is to understand the statistical properties of the revenue series and identify appropriate modeling approaches.
+Decomposition of actual vs forecast performance into price, volume, and mix effects, enabling actionable FP&A insights.
 
+### 4.6 — ML Driver-Based Forecasting
 
-
-### 4.2 — Forecasting Models & Scenario Framework
-
-Implementation of time-series forecasting models for revenue projection.
-
-Main components include:
-
-- SARIMA forecasting models
-- Train/test validation
-- Forecast accuracy metrics (MAPE, WAPE, RMSE)
-- Multi-horizon revenue projections
-- Forecast confidence intervals
-- Scenario envelopes for FP&A analysis
-
-This section converts statistical models into actionable revenue forecasts.
-
-
-
-### 4.3 — FP&A Integration
-
-Integration of forecast outputs with financial planning processes.
-
-This stage focuses on translating statistical forecasts into FP&A planning assumptions used for:
-
-- revenue planning
-- budget preparation
-- variance analysis
-- financial scenario evaluation
-
-
-
-### 4.4 — Forecast Visualization & Analytics
-
-Python-based analytical layer used to visualize forecast outputs and financial performance indicators.
-
-Key elements include:
-
-- extraction of IFRS financial views from the Data Warehouse
-- transformation of forecast datasets
-- visualization of revenue trends and forecast paths
-- comparison between actual and forecasted financial performance
-
+Machine learning models (Random Forest, XGBoost, LightGBM) capturing nonlinear relationships between revenue and business drivers.
 
 
 ## Role in the Platform
 
 Module 4 represents the **advanced analytics layer** of the platform.
 
-It connects the financial data infrastructure (Modules 1–3) with the executive decision-support layer implemented in the BI dashboards (Module 5).
+It connects the financial data infrastructure (Modules 1–3) with the executive decision-support layer implemented in the BI dashboards.
