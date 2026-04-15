@@ -71,7 +71,9 @@ digital-finance-forecasting-platform
 │   ├── Module4.1_py_reg.ipynb
 │   ├── Module4.2_py.ipynb
 │   ├── Module4.3_excel.pdf
-│   ├── Module4.4_py_sql.ipynb
+│   ├── Module4.4_py_anomaly.ipynb
+│   ├── Module4.5_fpa_bridge.ipynb
+│   ├── Module4.6_ml_forecast.ipynb
 │   └── README.md
 │
 ├── module-5-bi-dashboard
@@ -152,22 +154,24 @@ Key components:
 
 The module replaces manual reporting with a reproducible financial analytics and monitoring workflow.
 
-### Module 4 — Forecasting & FP&A Analytics
+### Module 4 — FP&A Intelligence: Forecasting, Planning & Variance Analytics
 
-Advanced financial analytics layer responsible for transforming historical financial data into statistically governed forecasts and FP&A planning inputs. The module establishes a rigorous forecasting workflow combining statistical diagnostics, model selection, and scenario-based financial planning.
+Advanced financial analytics layer responsible for transforming historical financial data into forward-looking insight, financial plans, and performance explanations.
+
+The module implements a structured FP&A workflow:
+
+**diagnostic analysis → statistical forecasting → financial planning → forecast governance → variance analysis → driver-based forecasting enhancement**
 
 Core analytical components include:
 
-- **Exploratory Data Analysis (EDA)** to understand distributional behavior, revenue dynamics, and structural patterns in financial drivers  
-- **Time-series diagnostics**, including stationarity testing, seasonal decomposition, and autocorrelation analysis  
-- **Model evaluation and selection**, comparing regression-based approaches and time-series frameworks  
-- **SARIMA forecasting models** calibrated to capture long-term trend and seasonal revenue behavior  
-- **Regime-adjusted forecasting**, incorporating structural shifts in historical financial dynamics  
-- **Forecast validation**, using out-of-sample evaluation metrics such as MAPE, WAPE, and RMSE  
-- **Probabilistic forecasting**, generating confidence intervals and uncertainty envelopes  
-- **Monte Carlo scenario simulation** for probabilistic revenue and financial outcome analysis  
+- **Statistical diagnostics and model selection**, including EDA, stationarity testing, seasonality analysis, and feature evaluation  
+- **SARIMA-based forecasting**, generating multi-horizon projections with probabilistic confidence intervals  
+- **Scenario modeling**, supporting FP&A planning through base, upside, and downside financial projections  
+- **Forecast governance**, using anomaly detection frameworks to validate accuracy, plausibility, and consistency  
+- **Variance analysis**, decomposing performance into price, volume, and mix effects across business segments  
+- **Driver-based machine learning models**, capturing nonlinear relationships between revenue and operational drivers (price, volume, channel, product mix)
 
-Forecast outputs are translated into **FP&A planning inputs**, enabling scenario analysis, financial variance monitoring, and integration with corporate budgeting and executive decision-support workflows.
+The module integrates statistical rigor with business interpretability, enabling a complete FP&A intelligence cycle — from forecast generation to validation and performance explanation — supporting data-driven financial decision-making.
 
 ### Module 5 — Executive BI Dashboard
 
