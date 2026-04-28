@@ -34,7 +34,7 @@ Decomposition of actual vs forecast performance into price, volume, and mix effe
 
 ### 4.6 — ML Driver-Based Forecasting
 
-Machine learning models (Random Forest, XGBoost, LightGBM) capturing nonlinear relationships between revenue and business drivers.
+Machine learning models (Random Forest, XGBoost, LightGBM).
 
 
 ## Role in the Platform
